@@ -1,0 +1,26 @@
+{
+  "name": "pete-core",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "(cd src && babel * -d ../build)",
+    "clean": "rm -rf build",
+    "install": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btoll/pete-core.git"
+  },
+  "keywords": [],
+  "author": "Benjamin Toll <benjam72@yahoo.com> (http://www.benjamintoll.com)",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/btoll/pete-core/issues"
+  },
+  "homepage": "https://github.com/btoll/pete-core#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1"
+  }
+}
+
